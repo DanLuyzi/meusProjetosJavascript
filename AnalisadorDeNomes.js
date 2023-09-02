@@ -1,6 +1,6 @@
 const prompt = require('prompt-sync')();
 
-let tamanhoDaLista = prompt("Quantos nomes? : ")
+let tamanhoDaLista = prompt("Quantos Nomes? : ")
 let listaDeNomes = [];
 
 for(index = 0; index < tamanhoDaLista; index++){
@@ -17,4 +17,7 @@ listaDeNomes.sort((a, b) => {
         return -1;
     return 0;
 });
+
+// Criei uma alteração para exemplificar o uso do commit.
+
 console.log(listaDeNomes);
